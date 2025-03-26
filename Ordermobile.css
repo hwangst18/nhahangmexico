@@ -1,0 +1,63 @@
+
+@media (max-width: 768px) {{
+    body {{
+        padding: 10px !important;
+        background-size: cover !important;
+        overflow-x: hidden !important;
+    }}
+    
+    header {{
+        flex-direction: column !important;
+        padding: 10px !important;
+    }}
+
+    .logo img {{
+        height: 60px !important;
+        margin: 0 auto !important;
+    }}
+
+    .nav-links {{
+        flex-direction: column !important;
+        align-items: center !important;
+    }}
+
+    .nav-links li {{
+        margin: 10px 0 !important;
+    }}
+
+    .hero-title {{
+        font-size: 28px !important;
+    }}
+
+    .hero-subtitle {{
+        font-size: 16px !important;
+    }}
+
+    .action-buttons {{
+        flex-direction: column !important;
+        align-items: center !important;
+    }}
+
+    .action-buttons button {{
+        margin: 10px 0 !important;
+        width: 80% !important;
+    }}
+
+    .login-box, .container {{
+        width: 90% !important;
+        padding: 20px 10px !important;
+    }}
+
+    .promo-container {{
+        height: 300px !important;
+    }}
+
+    .promo-slider img {{
+        height: 100% !important;
+        object-fit: cover !important;
+    }}
+
+    .menu-container {{
+        padding: 1rem !important;
+    }}
+}}
